@@ -1,2 +1,2 @@
 # TestAutomationBase
- est automation framework using Cucumber framework structure.
+ Test automation framework using Cucumber framework structure.
