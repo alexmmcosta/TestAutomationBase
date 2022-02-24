@@ -1,0 +1,9 @@
+Runners/ApiRun.class
+StepDefinitions/AndroidStepDefinition/FisrAndroidStep.class
+Runners/IOSRun.class
+Runners/AndroidRun.class
+StepDefinitions/WebStepDefinition/FisrWebStep.class
+StepDefinitions/IOSStepDefinition/FisrIOSStep.class
+StepDefinitions/ApiStepDefinition/FisrApiStep.class
+Runners/WebRun.class
+Starter/GlobalStarter.class
