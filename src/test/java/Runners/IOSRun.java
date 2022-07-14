@@ -5,8 +5,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/iosFeatures" ,
-        glue = {"StepDefinitions/IOSStepDefinition"}, dryRun = true,
-        plugin = {"pretty","json:target/cucumberIOS.json","html:target/cucumberIOS.html"}
+        glue = {"StepDefinitions/IOSStepDef"}, dryRun = true,
+        plugin = {"pretty","json:target/cucumberIOS.json","html:target/cucumberIOS.html"},
+        publish = true
+
 )
 
 public class IOSRun extends AbstractTestNGCucumberTests {

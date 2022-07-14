@@ -5,8 +5,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/apiFeatures" ,
-        glue = "StepDefinitions/ApiStepDefinition", dryRun = true,
-        plugin = {"pretty","json:target/cucumberApi.json","html:target/cucumberApi.html"}
+        glue = "StepDefinitions/ApiStepDef", dryRun = true,
+        plugin = {"pretty","json:target/cucumberApi.json","html:target/cucumberApi.html"},
+        publish = true
+
 )
 
 public class ApiRun extends AbstractTestNGCucumberTests {
